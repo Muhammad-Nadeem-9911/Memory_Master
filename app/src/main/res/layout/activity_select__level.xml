@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Select_Level">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_marginVertical="40dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+
+
+        android:layout_height="70dp"
+        android:textColor="#0c4744"
+        android:text="Select Difficulty Level" />
+
+    <Button
+        android:id="@+id/Level_1"
+        android:layout_width="300dp"
+        android:layout_marginVertical="40dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:background="@drawable/rounded_button"
+        android:textStyle="italic"
+
+        android:layout_height="50dp"
+        android:text="Level 1" />
+
+    <Button
+        android:id="@+id/Level_2"
+        android:layout_width="300dp"
+        android:background="@drawable/rounded_button"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+
+        android:textStyle="italic"
+        android:layout_marginVertical="30dp"
+        android:text="Level 2" />
+
+    <Button
+        android:id="@+id/Level_3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+
+        android:fontFamily="sans-serif-black"
+        android:background="@drawable/rounded_button"
+        android:textStyle="italic"
+        android:layout_marginVertical="30dp"
+        android:text="Level 3" />
+
+</LinearLayout>
